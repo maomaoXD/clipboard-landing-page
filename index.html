@@ -5,35 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Clipboard landing page</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
-
-  <div class="grid grid-cols-1 p-4">
-    <div class="bg-blue-200 p-4 flex flex-col">
-      <h1 class="text-lg font-bold">A history of everything you copy</h1>
-      <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
-      <div class="flex flex-row gap-2 sm:flex-col">
-        <button class="bg-green-500 text-white p-2 rounded ">Download for iOS</button>
-        <button class="bg-green-700 text-white p-2 rounded">Download for Mac</button>
+<body class="min-h-[100dvh] font-sans text-[18px] text-gray-700">
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 p-4 m-4">
+      <div class="p-4 flex flex-col gap-4 items-center">
+        <img src="./images/logo.svg" alt="logo" class="w-25 h-25 m-4">
+        <h1 class="text-lg font-bold text-center">A history of everything you copy</h1>
+        <p class="text-center">Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
+        <div class="flex flex-col gap-4 md:flex-row">
+          <button class="bg-green-500 text-white p-2 rounded">Download for iOS</button>
+          <button class="bg-green-700 text-white p-2 rounded">Download for Mac</button>
+        </div>
       </div>
     </div>
-
-    <div class="grid grid-cols-1 p-4 bg-red-300">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat quod sint reiciendis itaque? Officiis quos natus eos et repudiandae provident mollitia quisquam aspernatur quam ex, eum delectus consequatur cumque.</p>
-      <div class="grid grid-cols-1 lg:grid-cols-2">
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, dolores incidunt harum autem totam, distinctio impedit quae officia voluptatem eos aperiam obcaecati minus illo enim a ratione iusto nobis vero.</p>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, dolores incidunt harum autem totam, distinctio impedit quae officia voluptatem eos aperiam obcaecati minus illo enim a ratione iusto nobis vero.</p>
-
-      </div>
-
-    </div>
-  
   </div>
-  
-  
 </body>
 </html>
