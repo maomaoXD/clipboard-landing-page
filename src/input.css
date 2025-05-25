@@ -11,3 +11,26 @@
 
 }
 
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: unset;
+    font-weight: unset;
+  }
+}
+
+@layer utilities {
+    .shadow-custom-green {
+        box-shadow: 0 2px 0px 0 rgba(0, 130, 122, .90);
+    }
+
+    .shadow-custom-blue {
+        box-shadow: 0 2px 0px 0 rgba(47, 44, 255, 0.9);
+    }
+}
+
+
+.header-bg {
+    background-image: url(../images/bg-header-mobile.png);
+    background-size: cover;
+    background-position: center;
+}
