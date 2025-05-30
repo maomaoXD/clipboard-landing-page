@@ -17,14 +17,14 @@
 <body class="font-primary text-center text-lg">
 
   <main class="container grid grid-rows-1 mx-auto">
-      <header class="flex flex-row justify-center items-center flex-wrap gap-4 mb-8 header-bg p-4">
+      <header class="grid grid-rows-1 gap-4 mb-8 header-bg p-4">
         <img src="images/logo.svg " alt="Clipboard Logo" class="mx-auto m-12 w-28 pt-16" >
     
-        <h1 class="text-neutral-700 text-3xl font-semibold">A history of <span class="block">everything you copy</span></h1>
+        <h1 class="text-neutral-700 text-3xl font-semibold">A history of <span class="block md:inline">everything you copy</span></h1>
 
-        <p class="text-neutral-500 text-base"> Clipboard allows you to track and <span class="block"> organize everything you copy. Instantly </span>access your clipboard on all your devices.</p>
+        <p class="text-neutral-500 text-base"> Clipboard allows you to track and <span class="block md:inline"> organize everything you copy. Instantly </span>access your clipboard on all your devices.</p>
 
-        <div class="flex flex-col gap-4 m-5 text-white text-base w-full md:flex-row">
+        <div class="flex flex-col gap-4 m-5 text-white text-base w-80 md:flex-row justify-center">
           <button class="bg-primary py-3 px-7 rounded-full shadow-custom-green">Download for iOS</button>
           <button class="bg-secondary py-3 px-7 rounded-full shadow-2xl shadow-custom-blue">Download for Mac</button>
         </div>
@@ -77,21 +77,43 @@
         <p class="text-neutral-500 text-base mb-8">We've got the tools to boost your productivity.</p>
 
         <div class="grid md:grid-cols-3 m-8">
-          <div class="mb-8 flex flex-col items-center min-h-[320px]">
+          <div class="mb-8 flex flex-col items-center">
             <img src="images/icon-blacklist.svg" alt="Blacklist Icon" class="w-10 mx-auto mt-8 mb-8">
             <h3 class="text-neutral-700 text-xl font-semibold mb-4">Create blacklists</h3>
             <p class="text-neutral-500 text-base">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
           </div>
-          <div class="mb-8 flex flex-col items-center min-h-[320px]">
+          <div class="mb-8 flex flex-col items-center">
             <img src="images/icon-text.svg" alt="Text Icon" class="w-10 mx-auto mt-8 mb-8">
             <h3 class="text-neutral-700 text-xl font-semibold mb-4">Plain text snippets</h3>
             <p class="text-neutral-500 text-base">Remove unwanted formatting from copied text for a consistent look.</p>
           </div>
-          <div class="mb-8 flex flex-col items-center min-h-[320px]">
+          <div class="mb-8 flex flex-col items-center">
             <img src="images/icon-preview.svg" alt="Preview Icon" class="w-13 mx-auto mt-8 mb-9">
             <h3 class="text-neutral-700 text-xl font-semibold mb-4">Sneak preview</h3>
             <p class="text-neutral-500 text-base">Quick preview of all snippets on your Clipboard for easy access.</p>
           </div>
+        </div>
+      </section>
+
+
+      <section class="grid grid-rows-1 mb-8 p-4">
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+          <img src="images/logo-google.png" alt="Google Logo" class="w-30 mx-auto my-4">
+          <img src="images/logo-ibm.png" alt="IBM Logo" class="w-30 mx-auto my-4">
+          <img src="images/logo-microsoft.png" alt="Microsoft Logo" class="w-30 mx-auto my-4">
+          <img src="images/logo-hp.png" alt="HP Logo" class="w-30 mx-auto my-4">
+          <img src="images/logo-vector-graphics.png" alt="Vector Graphics Logo" class="w-30 mx-auto my-4">
+
+        </div>
+      </section>
+
+      <section class="grid grid-rows-1 mb-8 p-4">
+        <h2 class="text-neutral-700 text-3xl font-semibold mb-8">Clipboard for iOS and Mac OS</h2>
+        <p class="text-neutral-500 text-base mb-8">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
+
+        <div class="flex flex-col gap-4 m-5 text-white text-base w-80 md:flex-row justify-center">
+          <button class="bg-primary py-3 px-7 rounded-full shadow-custom-green">Download for iOS</button>
+          <button class="bg-secondary py-3 px-7 rounded-full shadow-2xl shadow-custom-blue">Download for Mac</button>
         </div>
       </section>
 
